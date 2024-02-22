@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>METAVERSE</title>
     <link rel="stylesheet" href="./main.css">
-    <script src="./main.js" type="module"></script>
+    <script src="./main.js" defer></script>
 </head>
 <body>
     <header>
@@ -28,10 +28,57 @@
                 <div></div>
             </div>
             <div class="buttons">
-                <button id="tab-1">INTRO</button>
-                <button id="tab-2">WORK</button>
-                <button id="tab-3">ABOUT</button>
-                <button id="tab-4">CONTACT</button>
+                <button onclick="openTab(event, 1)">INTRO</button>
+                <button onclick="openTab(event, 2)">WORK</button>
+                <button onclick="openTab(event, 3)">ABOUT</button>
+                <button onclick="openTab(event, 4)">CONTACT</button>
+            </div>
+        </section>
+        <section id="tab-content-1" class="tab-content">
+            <div>
+                <div>
+                    <h1>INTRO</h1>
+                    <div class="linija"></div>
+                    <img src="./git_ir_gitHub/resources/xmark-solid.svg" alt="close" onclick="closeTab(event, 1)" class="close">
+                </div>
+                <video width="700" height="300" controls> 
+                    <source src="./git_ir_gitHub/resources/tab-1.mp4" type="video/mp4">
+                </video>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos consequatur autem obcaecati veniam fugiat veritatis porro atque totam nihil, officiis quod voluptate magnam blanditiis consequuntur esse ratione quasi ipsam nobis quisquam explicabo magni eum quo pariatur asperiores! Similique vel tempore provident necessitatibus adipisci illum.</p>
+                <p>Hic laudantium esse sequi nesciunt velit eveniet cumque est, consequuntur reiciendis. Sequi reprehenderit fugit laudantium iusto vero omnis nisi harum quo doloribus! Libero velit sunt vel sequi optio corrupti exercitationem aliquid doloribus. Consectetur eaque omnis, maxime quaerat suscipit fugiat quam odit dolor! Perferendis numquam maxime, voluptas nostrum, quibusdam blanditiis dolore error ipsum nihil delectus, labore recusandae?</p>
+            </div>
+        </section>
+        <section id="tab-content-2" class="tab-content">
+            <div>
+                <div>
+                    <h1>WORK</h1>
+                    <img src="./git_ir_gitHub/resources/xmark-solid.svg" alt="close" onclick="closeTab(event, 2)" class="close">
+                </div>
+                <img src="./git_ir_gitHub/resources/tab-2.jpg" alt="workFoto">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos consequatur autem obcaecati veniam fugiat veritatis porro atque totam nihil, officiis quod voluptate magnam blanditiis consequuntur esse ratione quasi ipsam nobis quisquam explicabo magni eum quo pariatur asperiores! Similique vel tempore provident necessitatibus adipisci illum.</p>
+                <p>Hic laudantium esse sequi nesciunt velit eveniet cumque est, consequuntur reiciendis. Sequi reprehenderit fugit laudantium iusto vero omnis nisi harum quo doloribus! Libero velit sunt vel sequi optio corrupti exercitationem aliquid doloribus. Consectetur eaque omnis, maxime quaerat suscipit fugiat quam odit dolor! Perferendis numquam maxime, voluptas nostrum, quibusdam blanditiis dolore error ipsum nihil delectus, labore recusandae?</p>
+            </div>
+        </section>
+        <section id="tab-content-3" class="tab-content">
+            <div>
+                <div>
+                    <h1>ABOUT</h1>
+                    <img src="./git_ir_gitHub/resources/xmark-solid.svg" alt="close" onclick="closeTab(event, 3)" class="close">
+                </div>
+                <img src="./git_ir_gitHub/resources/tab-3.jpg" alt="aboutFoto">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos consequatur autem obcaecati veniam fugiat veritatis porro atque totam nihil, officiis quod voluptate magnam blanditiis consequuntur esse ratione quasi ipsam nobis quisquam explicabo magni eum quo pariatur asperiores! Similique vel tempore provident necessitatibus adipisci illum.</p>
+                <p>Hic laudantium esse sequi nesciunt velit eveniet cumque est, consequuntur reiciendis. Sequi reprehenderit fugit laudantium iusto vero omnis nisi harum quo doloribus! Libero velit sunt vel sequi optio corrupti exercitationem aliquid doloribus. Consectetur eaque omnis, maxime quaerat suscipit fugiat quam odit dolor! Perferendis numquam maxime, voluptas nostrum, quibusdam blanditiis dolore error ipsum nihil delectus, labore recusandae?</p>
+            </div>
+        </section>
+        <section id="tab-content-4" class="tab-content">
+            <div>
+                <div>
+                    <h1>CONTACT</h1>
+                    <img src="./git_ir_gitHub/resources/xmark-solid.svg" alt="close" onclick="closeTab(event, 4)" class="close">
+                </div>
+                <img src="./git_ir_gitHub/resources/tab-4.jpg" alt="contactFoto">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos consequatur autem obcaecati veniam fugiat veritatis porro atque totam nihil, officiis quod voluptate magnam blanditiis consequuntur esse ratione quasi ipsam nobis quisquam explicabo magni eum quo pariatur asperiores! Similique vel tempore provident necessitatibus adipisci illum.</p>
+                <p>Hic laudantium esse sequi nesciunt velit eveniet cumque est, consequuntur reiciendis. Sequi reprehenderit fugit laudantium iusto vero omnis nisi harum quo doloribus! Libero velit sunt vel sequi optio corrupti exercitationem aliquid doloribus. Consectetur eaque omnis, maxime quaerat suscipit fugiat quam odit dolor! Perferendis numquam maxime, voluptas nostrum, quibusdam blanditiis dolore error ipsum nihil delectus, labore recusandae?</p>
             </div>
         </section>
     </main>
