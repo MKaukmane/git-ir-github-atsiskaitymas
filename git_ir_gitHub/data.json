@@ -1,0 +1,29 @@
+{
+    "kortele":[
+        {
+        "id": "tab-1",
+        "title": "INTRO",
+        "img":"../resources/tab-1.mp4",
+        "tekstas":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos consequatur autem obcaecati veniam fugiat veritatis porro atque totam nihil, officiis quod voluptate magnam blanditiis consequuntur esse ratione quasi ipsam nobis quisquam explicabo magni eum quo pariatur asperiores! Similique vel tempore provident necessitatibus adipisci illum.",
+        "tektas2":"Hic laudantium esse sequi nesciunt velit eveniet cumque est, consequuntur reiciendis. Sequi reprehenderit fugit laudantium iusto vero omnis nisi harum quo doloribus! Libero velit sunt vel sequi optio corrupti exercitationem aliquid doloribus. Consectetur eaque omnis, maxime quaerat suscipit fugiat quam odit dolor! Perferendis numquam maxime, voluptas nostrum, quibusdam blanditiis dolore error ipsum nihil delectus, labore recusandae?"
+        }, {
+        "id": "tab-2",
+        "title": "WORK",
+        "img":"../resources/tab-2.jpg",
+        "tekstas":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos consequatur autem obcaecati veniam fugiat veritatis porro atque totam nihil, officiis quod voluptate magnam blanditiis consequuntur esse ratione quasi ipsam nobis quisquam explicabo magni eum quo pariatur asperiores! Similique vel tempore provident necessitatibus adipisci illum.",
+        "tektas2":"Hic laudantium esse sequi nesciunt velit eveniet cumque est, consequuntur reiciendis. Sequi reprehenderit fugit laudantium iusto vero omnis nisi harum quo doloribus! Libero velit sunt vel sequi optio corrupti exercitationem aliquid doloribus. Consectetur eaque omnis, maxime quaerat suscipit fugiat quam odit dolor! Perferendis numquam maxime, voluptas nostrum, quibusdam blanditiis dolore error ipsum nihil delectus, labore recusandae?"
+        }, {
+        "id": "tab-3",
+        "title": "ABOUT",
+        "img":"../resources/tab-3.jpg",
+        "tekstas":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos consequatur autem obcaecati veniam fugiat veritatis porro atque totam nihil, officiis quod voluptate magnam blanditiis consequuntur esse ratione quasi ipsam nobis quisquam explicabo magni eum quo pariatur asperiores! Similique vel tempore provident necessitatibus adipisci illum.",
+        "tektas2":"Hic laudantium esse sequi nesciunt velit eveniet cumque est, consequuntur reiciendis. Sequi reprehenderit fugit laudantium iusto vero omnis nisi harum quo doloribus! Libero velit sunt vel sequi optio corrupti exercitationem aliquid doloribus. Consectetur eaque omnis, maxime quaerat suscipit fugiat quam odit dolor! Perferendis numquam maxime, voluptas nostrum, quibusdam blanditiis dolore error ipsum nihil delectus, labore recusandae?"
+        }, {
+        "id": "tab-4",
+        "title": "CONTACT",
+        "img":"../resources/tab-4.jpg",
+        "tekstas":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos consequatur autem obcaecati veniam fugiat veritatis porro atque totam nihil, officiis quod voluptate magnam blanditiis consequuntur esse ratione quasi ipsam nobis quisquam explicabo magni eum quo pariatur asperiores! Similique vel tempore provident necessitatibus adipisci illum.",
+        "tektas2":"Hic laudantium esse sequi nesciunt velit eveniet cumque est, consequuntur reiciendis. Sequi reprehenderit fugit laudantium iusto vero omnis nisi harum quo doloribus! Libero velit sunt vel sequi optio corrupti exercitationem aliquid doloribus. Consectetur eaque omnis, maxime quaerat suscipit fugiat quam odit dolor! Perferendis numquam maxime, voluptas nostrum, quibusdam blanditiis dolore error ipsum nihil delectus, labore recusandae?"
+        }
+    ]
+}
