@@ -2,10 +2,11 @@ body{
     background-image: url('./git_ir_gitHub/resources/bg.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
-    margin-top: 110px;
+    margin-top: 120px;
     text-align: center;
     >img{
         width: 30px;
@@ -36,6 +37,10 @@ header{
         >a{
             color: white;
         }
+        a:hover{
+            color: blue;
+            cursor: pointer;
+        }
     }
 }
 #tab{
@@ -47,7 +52,7 @@ header{
             background-color: #00000000; 
             border: 1px solid white; 
             color: white;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
             font-size: 10px;
             padding: 15px;
         }
@@ -56,6 +61,10 @@ header{
         }
         >:nth-child(4){
             border-radius: 0 0 5px 5px; 
+        }
+        button:hover{
+            background-color: #ffffff77;
+            cursor: pointer;
         }
     }
 }
@@ -74,6 +83,7 @@ header{
 }
 @media (min-width: 992px){
     header{
+        padding-top:20px;
         .line{
             width: 95%;
         }
