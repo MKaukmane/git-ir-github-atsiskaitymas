@@ -1,0 +1,109 @@
+body{
+    background-image: url('./git_ir_gitHub/resources/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    margin-top: 110px;
+    text-align: center;
+    >img{
+        width: 30px;
+        padding: 20px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    .line{
+        margin: 0 auto;
+        width: 100%;
+        border-top: 1px solid white;
+    }
+}
+#title{
+    text-transform: uppercase;
+    color: white;
+    margin: 30px 0;
+    >h1{
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: lighter;
+    }
+    >p{
+        font-size: 12px;
+        text-align: justify;
+        letter-spacing: 1px;
+        line-height: 2;
+        >a{
+            color: white;
+        }
+    }
+}
+#tab{
+    >.buttons {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        >button{
+            background-color: #00000000; 
+            border: 1px solid white; 
+            color: white;
+            letter-spacing: 1px;
+            font-size: 10px;
+            padding: 15px;
+        }
+        >:nth-child(1){
+            border-radius: 5px 5px 0 0; 
+        }
+        >:nth-child(4){
+            border-radius: 0 0 5px 5px; 
+        }
+    }
+}
+.line{
+    margin: 0 auto;
+    width: 100%;
+    border-top: 1px solid white;
+}
+.kitaLine{
+    display: flex;
+    justify-content: center;
+}
+.vertikali{
+    border-right: 1px solid white;
+    height: 40px;
+}
+@media (min-width: 992px){
+    header{
+        .line{
+            width: 95%;
+        }
+    }
+    #title{
+        >h1{
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        >p{
+            text-align: center;
+            font-size: 13px;
+        }
+    }
+    #tab{
+        .buttons{
+            flex-direction: row;
+            justify-content: center;
+            >button{
+                width: 100px;
+            }
+            >:nth-child(1){
+                border-radius: 5px 0 0 5px ; 
+            }
+            >:nth-child(4){
+                border-radius: 0 5px 5px 0; 
+            }
+        }
+    }
+    .line{
+        width: 95%;
+    }
+}
